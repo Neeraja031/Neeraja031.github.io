@@ -18,13 +18,15 @@ ul{
     list-style: none;   
 }
 .nav{
-    height:10px;
+    height:20px;
+   
 }
 .container{
     width:auto;
 }
 .nav-item{
-    padding:40px 0px;
+    padding-top:40px;
+    background-color: black;
 }
 .nav-item.name{
  padding-left:0px;  
@@ -61,11 +63,12 @@ ul{
     border-radius: 80%;
 }
 div.image{
-      padding:150px 650px;
+      padding:200px 650px;
 }
 #img{
     height:500px;
     width:500px;
+    display:block;
     color:red;
     position: absolute;
     border-radius: 50%;
@@ -94,9 +97,9 @@ div.image{
 }
 .aboutme p {
     font-size:30px;
-    padding-left: 600px;
+    padding-left: 500px;
     padding-top: 100px;
-    padding-right:100px;
+    padding-right:50px;
     padding-bottom:20px;
 }
 h2{
@@ -158,7 +161,7 @@ button{
     background-color:blueviolet;
     color:white;
     border-radius:20px;
-    
+
 }
 .contact .content{
     padding-top:10%;
