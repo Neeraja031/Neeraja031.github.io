@@ -14,9 +14,9 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <ul class="nav fixed-top">
+                <ul class="nav  fixed-top">
                     <li class="nav-item name col-8"><h1><span>N</span>eeraja</h1></li>
-                    <li class="nav-item"><a href="#intro" class="nav-link" id="home"> Home </a></li>
+                    <li class="nav-item"><a href="#intro" class="nav-link active" id="home"> Intro </a></li>
                     <li class="nav-item"><a href="#about me" class="nav-link" id="about"> About me </a></li>
                     <li class="nav-item"><a href="#myskills" class="nav-link" id="skills"> Skills </a></li>
                     <!-- <li class="nav-item"><a href="#" class="nav-link" id="projects"> Projects </a></li> -->
@@ -54,7 +54,7 @@
                 <div class="skill-list">
                     <div class="row">
                         <div class="col webdev">
-                            <img src="webdev.jpg" alt="Web Development picture">
+                            <img src="/home/rgukt/Desktop/academics/intern/webdev.jpg" alt="Web Development picture">
                             <div class="layer" >
                                 <div class="text">
                                     <h5> Web Designing </h5>
@@ -64,7 +64,7 @@
                         </div>
                         <div class="col">
                             <div class="DS">
-                                <img src="ds.png">
+                                <img src="/home/rgukt/Desktop/academics/intern/ds.png">
                                 <div class="layer" >
                                     <div class="text">
                                         <h5> Data Science </h5>
@@ -74,7 +74,7 @@
                             </div>
                         </div>
                         <div class="col ML">
-                            <img src="ml.jpg">
+                            <img src="/home/rgukt/Desktop/academics/intern/ml.jpg">
                             <div class="layer">
                                 <div class="text">
                                     <h5> Machine Learning </h5>
@@ -87,23 +87,26 @@
             </div>
         </div>
     </div>
-    <br><br>
     <!-- this is contact section -->
     <div class="container">
         <div class="contact" id="mycontact">
             <h2> Contact me</h2>
             <div class="row">
-                <div class="col">
-                    <h4>For any queries please contact me.</h4> 
-                    <p> Give me some suggestions for improving my self better in this aspect.. <br>
-                        If you have any queries fell free to contact me or respond through the form here..
-                    </p>
-
-                    <i class="fa-brands fa-whatsapp fa-fade" onclick="window.location.href='https://wa.me/qr/TFCPZU2BYLGWI1';"></i>
-                    <i class="fa-brands fa-instagram fa-fade" onclick="window.location.href='https://instagram.com/__neeraja_mohan__?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D';"></i>
-                    <i class="fa-brands fa-telegram fa-fade" onclick="window.location.href='https://wa.me/qr/TFCPZU2BYLGWI1';"></i>
-                    <i class="fa-brands fa-linkedin fa-fade" onclick="window.location.href='https://www.linkedin.com/in/dakkata-neeraja-164035206';"></i>
-                    <i class="fa-solid fa-at fa-fade" onclick="window.location.href='mailto:neerajadakkata@gmail.com';"></i>
+                <div class="col-7">
+                    <div class="content">
+                        <h4>For any queries please contact me.</h4> 
+                        <p> Give me some suggestions for improving my self better in this aspect.. <br>
+                        If you have any queries feel free to contact me or respond through the form here..
+                        </p>
+                    </div>
+                    <div class="sym">
+                        <i class="fa-brands fa-whatsapp fa-fade" onclick="window.location.href='https://wa.me/qr/TFCPZU2BYLGWI1';"></i>
+                        <i class="fa-brands fa-instagram fa-fade" onclick="window.location.href='https://instagram.com/__neeraja_mohan__?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D';"></i>
+                        <i class="fa-brands fa-telegram fa-fade" onclick="window.location.href='https://wa.me/qr/TFCPZU2BYLGWI1';"></i>
+                        <i class="fa-brands fa-linkedin fa-fade" onclick="window.location.href='https://www.linkedin.com/in/dakkata-neeraja-164035206';"></i>
+                        <i class="fa-solid fa-at fa-fade" onclick="window.location.href='mailto:neerajadakkata@gmail.com';"></i><br><br>
+                        <a href="/home/rgukt/Desktop/certificates/resume.pdf" download class="btn btn-primary">Download CV</a>
+                    </div>
                 </div>
                 <div class="col">
                     <form action="to.php" method="post">
@@ -130,12 +133,14 @@
                         </label> <br>
                         <textarea name="suggestions" id="sugg" cols="30" rows="5" placeholder="Enter your Queries or Suggestions here..." required></textarea>
                         <br><br>
-                        <button type="submit" onclick="submit()"> SUBMIT </button>
+                        <button type="submit" onclick="window.alert('Form submitted successfully!')"> SUBMIT </button>
                     </form>
                 </div>
             </div>
         </div>
     </div>
+    <br>
+    <br>
 <!-- this is the footer section-->
 <div class="container foot">
     <div class="footer">
